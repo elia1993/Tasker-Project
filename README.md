@@ -4,6 +4,7 @@ Tasker is a Flask-based server that processes tasks asynchronously. Clients can 
 The server processes these tasks in the background and stores the results in databases.
 
 Supported Tasks:
+
 Sum two numbers: Adds two integers and stores the result.
 Multiply three numbers: Multiplies three integers and stores the result.
 Fetch GitLab Group Info: Retrieves information about a specified GitLab group, including:
@@ -19,7 +20,9 @@ requirements.txt: List of Python dependencies.
 Databases
 tasks.db: Stores results for sum and multiply tasks.
 gitlab_info.db: Stores GitLab group information.
+
 **How to submit the tasker**
+
 1.Start the Flask server:
   python server.py
   The server will be running on http://localhost:5000.
