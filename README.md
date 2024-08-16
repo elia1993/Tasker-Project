@@ -31,3 +31,10 @@ gitlab_info.db: Stores GitLab group information.
   Sum Two Numbers: curl -X POST http://localhost:5000/submit_task -H "Content-Type: application/json" -d '{"task_name": "sum", "params": {"a": 5, "b": 7}}'
   Multiply Three Numbers: curl -X POST http://localhost:5000/submit_task -H "Content-Type: application/json" -d '{"task_name": "multiply", "params": {"a": 2, "b": 3, "c": 4}}'
 These requests will store the result in tasks.db.
+
+**Working with SQLite Databases using DB Navigator**
+Install the DB Navigator Plugin
+After installation, you can configure DB Navigator to point to SQLite database.
+
+
+
